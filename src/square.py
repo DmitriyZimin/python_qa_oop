@@ -7,4 +7,4 @@ class Square(Rectangle):
             raise ValueError("Длина стороны квадрата должна быть больше '0'")
 
         super().__init__(length, length)
-        self.figure = "Квадрат"
+        self.figure_name = "Квадрат"
